@@ -1,4 +1,4 @@
-Subspace-clustering
+asrata-essentials
 ===================
 
-Subspace clustering
+essential library and configurations for asrata.
