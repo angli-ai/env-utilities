@@ -15,6 +15,7 @@ Plugin 'scrooloose/nerdtree.git'
 " To get plugins from Vim Scripts, you can reference the plugin
 " by name as it appears on the site
 Plugin 'Buffergator'
+Plugin 'vim-colors-solarized'
 
 Plugin 'Gundo'
 Plugin 'Markdown'
@@ -29,11 +30,13 @@ filetype plugin indent on
 set shiftwidth=4
 set tabstop=4
 set background=dark
+colorscheme solarized
+let g:solarized_termcolors=256
 set hlsearch
 syntax on
 filetype plugin on
 filetype indent on
-colo torte
+"colo torte
 set pastetoggle=<F9>
 map <silent> <F9> :!g++ % -o %:r -Wall -g && ./%:r<CR>
 map <silent> <F8> :!python %<CR>
