@@ -1,7 +1,7 @@
 
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.Vim/
 call vundle#rc()
 
 " This is the Vundle package, which can be found on GitHub.
