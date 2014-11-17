@@ -1,7 +1,7 @@
 
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/Vundle.Vim/
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " This is the Vundle package, which can be found on GitHub.
@@ -30,6 +30,7 @@ filetype plugin indent on
 set shiftwidth=4
 set tabstop=4
 set background=dark
+set t_Co=256
 colorscheme solarized
 let g:solarized_termcolors=256
 set hlsearch

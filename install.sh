@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ ! -d "~/.vim/bundle/Vundle.vim" ]; then
-	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+if [ ! -d "~/.vim/bundle/vundle" ]; then
+	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle
 fi
 
 if [ ! -d "~/.vim/bundle/vim-colors-solarized" ]; then
